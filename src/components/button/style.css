@@ -1,0 +1,14 @@
+.Button{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-top:-40px;
+   
+  }
+
+  .icon{
+      display: flex;
+      align-items: center;
+      margin-left:10px;
+
+  }
