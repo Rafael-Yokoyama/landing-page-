@@ -9,7 +9,6 @@ interface TitleProps  {
     
 }
 
-
 export const ContainerTitle=styled.div<TitleProps> `
 
 font-size: ${props => props.font};

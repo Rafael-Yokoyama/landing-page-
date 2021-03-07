@@ -4,6 +4,9 @@ import "./App.css";
 import MulherTop from "./assets/mulhertop";
 import Button from "./components/button";
 import Container2 from "./components/Container2";
+import Container3 from "./components/Container3";
+
+
 
 import Header from "./components/header";
 import Paragraph from "./components/paragraph";
@@ -49,8 +52,12 @@ function App() {
       </div>
 
       <Container2/>
+      <Container3/>
+
 
     </div>
+     
+
   );
 }
 

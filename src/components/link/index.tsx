@@ -3,23 +3,19 @@ import { Linkes } from "./styles";
 
 interface LinkProps {
   link?: string;
-  text:string;
+  text: string;
   Color: string;
-  bold:string
+  bold: string;
 }
 
 const Link = (props: LinkProps) => {
   return (
     <nav className="nav">
       <ul>
-
-   
         <li>
-        <Linkes Color={props.Color}  bold= {props.bold}   href={props.link} >
-         {props.text}
-        </Linkes>
-
-        
+          <Linkes Color={props.Color} bold={props.bold} href={props.link}>
+            {props.text}
+          </Linkes>
         </li>
       </ul>
     </nav>

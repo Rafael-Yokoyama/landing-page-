@@ -8,7 +8,6 @@ interface ParagraphProps  {
     
 }
 
-
 export const ContainerParagraph=styled.div<ParagraphProps> `
 padding-top:50px;
 
