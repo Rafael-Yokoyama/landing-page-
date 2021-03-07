@@ -1,20 +1,16 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-interface ParagraphProps  {
-
-    font:string;
-    width:string;
-    Color:string;
-    
+interface ParagraphProps {
+  font: string;
+  width: string;
+  Color: string;
 }
 
-export const ContainerParagraph=styled.div<ParagraphProps> `
-padding-top:50px;
+export const ContainerParagraph = styled.div<ParagraphProps>`
+  padding-top: 50px;
 
-font-size: ${props => props.font};
-width: ${props => props.width};
-color: ${props => props.Color};
-cursor:pointer;
-
-
-`
+  font-size: ${(props) => props.font};
+  width: ${(props) => props.width};
+  color: ${(props) => props.Color};
+  cursor: pointer;
+`;

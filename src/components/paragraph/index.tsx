@@ -1,9 +1,7 @@
 import React from "react";
 import { ContainerParagraph } from "./styles";
 
-
 interface PProps {
-
   font: string;
   width: string;
   text: string;
