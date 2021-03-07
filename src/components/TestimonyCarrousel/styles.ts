@@ -15,8 +15,8 @@ export const Container = styled.div`
     margin-bottom: 30px;
     margin-left: 5.5rem;
   }
-  .kicSTn {
+  .eqCTql  {
     color: white;
-    padding-top: 60px;
+    padding-top: 40px;
   }
 `;

@@ -11,6 +11,7 @@ export const Container = styled.div`
   box-shadow: 0px 20px 0px rgba(0, 0, 0, 0.2);
   margin: 0 auto;
   margin-top: 100px;
+  text-align:center
 
   border: 1px solid #9c69e2;
   img {
@@ -20,7 +21,9 @@ export const Container = styled.div`
     margin-bottom: 10rem;
   }
   .content {
+
     flex-direction: column;
+ 
     margin-left: 2rem;
   }
 
@@ -38,6 +41,6 @@ export const Container = styled.div`
   }
   .bygbUL {
     padding-right: 30px;
-    margin-top: -40px;
+    margin-top: -10px;
   }
 `;

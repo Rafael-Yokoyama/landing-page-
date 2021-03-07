@@ -47,7 +47,13 @@ export const Container = styled.div`
   .gKpviT {
     color: #212353;
     margin-top: -70px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+  }
+
+  .jvQHGT{
+       margin-top: -60px;
+       margin-bottom: 30px;
+    
   }
 
   .right {
